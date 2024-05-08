@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+}
+.footer{
+  position: relative;
+  
+}
+.footer-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  background-color: #EFEFEF;
+  color: #7E7E7E;
+  text-transform: capitalize;
+}
+
+.footer-menu{
+  padding: 0;
+  list-style: none;
+  
+}
+.social-content{
+  padding: 0;
+  list-style: none;
+}
+.pintreast{
+  background-image: url(../icons/Pintrest.svg);
+}
+.behance{
+  background-image: url(../icons/Behance.svg);
+}
+.dridddle{
+  background-image: url(../icons/Dribbble.svg);
+}
+.snapchat{
+  background-image: url(../icons/Snapchat.svg);
+}
+.linkedin{
+  background-image: url(../icons/Linkedin.svg);
+}
+.facebook{
+  background-image: url(../icons/Facebook.svg);
+}
+.pintreast,
+.behance,
+.dridddle,
+.snapchat,
+.linkedin,
+.facebook{
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+.footer-flex>span,
+.footer-menu>li,
+.social-content>li{
+  display: inline-block;
+  margin: 0;
+  padding: 0 5px;
+}
+.footer-menu{
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footer-menu{
+    display: block;
+  }
+  
+}
