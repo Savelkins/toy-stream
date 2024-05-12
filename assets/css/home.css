@@ -85,12 +85,14 @@ main {
     padding-right: 0px;
   }
   .content{
+    display: inline-flex;
+    flex-direction: column;
     position: relative;
     top: 190px;
     left: 100px;
   }
   .big-unicorn{
     position: relative;
-    top: -400px;
+    top: -485px;
   }
 }

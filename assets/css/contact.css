@@ -6,6 +6,7 @@
   flex-direction: column;
   margin-top: 100px;
   padding: 15px;
+  
 }
 .article-contact {
   display: flex;
@@ -71,6 +72,7 @@
   }
   .map{
     height: 540px;
+    margin-top: 67px;
   }
 }
 @media screen and (min-width:1200px){

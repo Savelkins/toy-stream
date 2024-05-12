@@ -1,0 +1,375 @@
+* {
+  box-sizing: border-box;
+}
+.main {
+  padding: 15px;
+
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+}
+.wrapper {
+  background-image: linear-gradient(90deg, white 70px, #d3d1e9 70px);
+  height: 973px;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.img-hero {
+  width: 208px;
+  height: 329px;
+  margin-right: 20px;
+}
+.img-big-hero {
+  display: none;
+}
+.game {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 16px;
+}
+.game > p {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Montserrat, sans-serif;
+}
+.game-header {
+  font-weight: 900;
+  font-size: 36px;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  margin-top: 75px;
+  margin-bottom: 15px;
+}
+.link-our-work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ce0002;
+  width: 192px;
+  height: 94px;
+  padding: 25px;
+  color: white;
+  font-weight: 700;
+  margin-top: 30px;
+  margin: 30px auto;
+}
+.our-work {
+  margin-top: 70px;
+}
+.row > img {
+  width: 344px;
+  height: 344px;
+}
+.row-reverse > img {
+  width: 344px;
+  height: 344px;
+}
+.row > h2 {
+  font-weight: 900;
+  font-size: 36px;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  margin-top: 75px;
+  margin-bottom: 15px;
+}
+.row-reverse > h2 {
+  font-weight: 900;
+  font-size: 36px;
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  margin-top: 75px;
+  margin-bottom: 15px;
+}
+.row {
+  width: 344px;
+}
+.row-reverse {
+  width: 344px;
+}
+.link-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ce0002;
+  width: 192px;
+  height: 94px;
+  padding: 25px;
+  color: white;
+  font-weight: 700;
+  margin-top: 30px;
+  /* margin: 30px auto ;  */
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+.link-more-hide {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #ce0002;
+  width: 192px;
+  height: 94px;
+  padding: 25px;
+  color: white;
+  font-weight: 700;
+  margin-top: 30px;
+  /* margin: 30px auto ;  */
+  text-transform: capitalize;
+  margin-bottom: 60px;
+}
+.link-more > img {
+  width: 94px;
+}
+.flex-recent-projects {
+  display: flex;
+  flex-direction: row;
+}
+.projects {
+  min-width: 219px;
+  margin-right: 80px;
+}
+.img-projects {
+  max-width: 219px;
+}
+.control-project {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-project {
+  padding: 0;
+  border: none;
+}
+.header-projects {
+  font-weight: 800;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+}
+.game-nav {
+  list-style: none;
+  padding: 0;
+  width: 250px;
+  position: absolute;
+  right: 10px;
+  top: 340px;
+}
+.game-nav > li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  height: 16.6px;
+}
+.game-nav > li > a {
+  background-color: #ce0002;
+  display: inline-block;
+  width: 16.6px;
+  height: 16.6px;
+  color: #ce000300;
+  margin-left: 10px;
+}
+.game-nav > li > a:hover {
+  background-color: black;
+}
+.game-nav > li > a:hover ~ p {
+  display: inline-block;
+}
+.game-nav > li {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.game-nav > li > p {
+  display: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #646464;
+}
+
+
+
+
+
+
+
+
+.game-nav2 {
+  list-style: none;
+  padding: 0;
+  width: 250px;
+  position: absolute;
+  right: 10px;
+  top: 1170px;
+}
+.game-nav2 > li {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  height: 16.6px;
+}
+.game-nav2 > li > a {
+  background-color: #ce0002;
+  display: inline-block;
+  width: 16.6px;
+  height: 16.6px;
+  color: #ce000300;
+  margin-left: 10px;
+}
+.game-nav2 > li > a:hover {
+  background-color: black;
+}
+.game-nav2 > li > a:hover ~ p {
+  display: inline-block;
+}
+.game-nav2 > li {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.game-nav2 > li > p {
+  display: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #646464;
+}
+.recent-projects>h2{
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 50px 0;
+}
+@media screen and (min-width: 768px) {
+  .recent-projects>h2{
+    font-size: 72px
+  }
+  .img-hero {
+    display: none;
+  }
+  .img-big-hero {
+    display: inline-block;
+    padding-right: 60px;
+  }
+  .flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 726px;
+    margin: auto;
+  }
+  .wrapper {
+    height: 1469px;
+  }
+  .footer {
+    bottom: -3666px;
+  }
+  .game {
+    padding: 0 176px;
+    margin-bottom: 200px;
+  }
+  .game > p {
+    font-size: 24px;
+  }
+  .game-header {
+    font-size: 72px;
+  }
+  .row {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+  }
+  .row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    width: auto;
+  }
+  .link-more {
+    display: none;
+  }
+  .link-more-hide {
+    display: flex;
+  }
+  .row > img {
+    width: 450px;
+    height: 450px;
+    margin-left: 30px;
+    margin-bottom: 60px;
+  }
+  .row-reverse > img {
+    width: 450px;
+    height: 450px;
+    margin-right: 30px;
+    margin-bottom: 60px;
+  }
+  .header-projects {
+    font-size: 64px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .wrapper {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(211, 209, 233, 1) 50%
+    );
+    height: 850px;
+  }
+  .flex {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .game {
+    width: auto;
+    padding: 0;
+  }
+  .img-big-hero {
+    position: relative;
+    right: 140px;
+  }
+  .game {
+    flex-direction: row;
+  }
+  .header-container {
+    width: 609px;
+    height: 582px;
+    font-size: 24px;
+    margin-left: 155px;
+  }
+  .link-our-work {
+    position: relative;
+    left: -666px;
+    top: 250px;
+  }
+  .our-work {
+    padding: 0 185px;
+  }
+  .recent-projects {
+    padding: 0 185px;
+  }
+  .projects{
+    width: 406px;
+  }
+  .projects>img{
+    
+    width: 406px;
+    height: 406px;
+  }
+  .projects-info{
+    padding: 60px;
+  }
+  .row{
+    align-items: center;
+  }
+  .row-reverse{
+    align-items: center;
+  }
+  .footer{
+    bottom: 0;
+  }
+}
